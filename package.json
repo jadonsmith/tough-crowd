@@ -1,0 +1,18 @@
+{
+  "name": "tough-crowd",
+  "version": "1.0.0",
+  "description": "Tough Crowd: a comedy-club party game for phones. Write the funniest answer or play a card from your hand, win the duel, survive the Hot Seat, land the Closer.",
+  "main": "server.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/engine.test.js && node test/sim.js",
+    "bots": "node test/bots.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-generator": "^1.5.2",
+    "ws": "^8.23.0"
+  }
+}
